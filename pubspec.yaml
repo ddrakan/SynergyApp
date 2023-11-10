@@ -1,0 +1,39 @@
+name: app
+description: Proyecto desarrollado por Alejandro V.D.C. Synergy Synerx creado 09/11/2023-17:50
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  firebase_auth: ^4.13.0
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  go_router: ^12.0.1
+  flutter_riverpod: ^2.4.5
+  intl: ^0.18.1
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo-synergy-light.png
+    - assets/images/logistics.png
+    - assets/images/markertruck.png
+
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans.ttf
